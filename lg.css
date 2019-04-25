@@ -1,0 +1,187 @@
+/*
+Hayden Price
+CSC 337, Spring 2019
+Final Project
+
+Styles for the Success Unlimited webpage.
+*/
+body {
+    background-color: rgb(110, 110, 110);
+    font-family: Garamond, serif;
+    font-size: 12pt;
+    text-align: center;
+}
+
+#box1 {
+    background-color: rgb(236, 88, 88);
+    border-radius: 2px;
+    font-size: 20pt;
+    width: 95%;
+    display: inline-block;
+}
+
+h1 {
+    margin: 0%;
+}
+
+#classList {
+    list-style: none;
+}
+
+#flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#flex>div {
+    margin:5px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 2px;
+    height: 800px;
+}
+
+p {
+    margin: 20px;
+}
+
+pre {
+    white-space: normal;
+}
+
+h5 {
+    width: 80%;
+    margin: auto;
+    padding-top: 3%;
+}
+
+#rightBox {
+    width: 32%;
+}
+
+#leftBox {
+    width: 65%;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.leftBoxes {
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    font-size: 20pt;
+    height: 200px;
+    width:96%;
+    margin: 15px;
+    box-shadow: 5px 10px 8px #888888;
+    display: inline-block;
+}
+
+#emailList {
+    height: 300px;
+}
+
+#form {
+    margin-top: 5%;
+    margin-left: 325px;
+}
+
+.resize {
+    width: 200px;
+    height: 30px;
+}
+
+#rightInside {
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    font-size: 12pt;
+    height: 97%;
+    box-shadow: 5px 10px 8px #888888;
+    margin: 10px;
+    overflow-y: auto;
+}
+
+.innerBox {
+    text-align: center;
+    margin: 5px;
+    background-color: rgb(236, 88, 88);
+    border-radius: 2px;
+    font-size: 20pt;
+    font-weight: bold;
+    text-shadow: 2px 2px #7c7c7c;
+}
+
+legend {
+    border-bottom: 1px solid red;
+    font-weight: bold;
+    padding: 2px;
+    text-align: left;
+    width: 100%;
+}
+
+#fieldSets fieldset{
+    border: none;
+    display: inline;
+    vertical-align: top;
+}
+
+button, #input{
+    background-color: #FFFFFF;
+    border: 1px solid red;
+}
+
+button {
+    width: 70px;
+}
+
+button:disabled {
+    background-color: lightgray;
+}
+
+#bottomLinks {
+    bottom: 5px;
+    left: 0px;
+    display: flex;
+    position: fixed;
+}
+
+.bottomImages {
+    width: 70px;
+}
+
+#classesTaught {
+    height: 80%;
+}
+
+#hide {
+    visibility: hidden;
+}
+
+#secret {
+    float: right;
+}
+
+#theImage, #secret { 
+    visibility: hidden; 
+}
+
+/*Styles for scroll bar. Makes the left div look much nicer.*/
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
