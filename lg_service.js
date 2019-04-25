@@ -35,5 +35,5 @@ app.post('/', jsonParser, function (req, res) {
     fs.appendFileSync("names.txt", "Name: " + name + " Email: " + email + '\n');
 })
 
-app.listen(3000);
+app.listen(process.env.PORT);
 
