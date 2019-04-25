@@ -43,7 +43,7 @@ Javascript for the final project, a webapp with information for my friend's busi
             body: JSON.stringify(person)
         };
 
-        let url = "http://final-project-hayden-p.herokuapp.com:process.env.PORT";
+        let url = "http://final-project-hayden-p.herokuapp.com";
         fetch(url, fetchOptions)
             .then(checkStatus)
             .catch(function (error) {
