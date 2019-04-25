@@ -2,7 +2,7 @@
   "name": "final",
   "version": "1.0.0",
   "description": "",
-  "main": "\"E:\\School\\Web Programming\\Final\\lg_service.js\"",
+  "main": "lg_service.js",
   "dependencies": {
     "express": "^4.16.4",
     "fs": "^0.0.1-security"
