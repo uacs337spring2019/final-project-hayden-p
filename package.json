@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/uacs337spring2019/final-project-hayden-p/issues"
   },
-  "homepage": "https://github.com/uacs337spring2019/final-project-hayden-p#readme",
-  "scripts": {
-    "start": "node lg_service.js"
-  }
+  "homepage": "https://github.com/uacs337spring2019/final-project-hayden-p#readme"
 }
